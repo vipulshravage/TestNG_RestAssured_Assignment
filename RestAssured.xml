@@ -2,7 +2,7 @@
 
 <suite name="TestNG_RestAssured Assignment">
 
-    <test name="Create User Details" >
+    <test name="TestNG_RestAssured Assignment" >
         <parameter name="url" value="https://dummyjson.com/products/1"/>
         <parameter name="baseurl" value="https://api.restful-api.dev/objects"/>
         <parameter name="name1" value="Sam Sundar"/>
@@ -13,9 +13,8 @@
         <parameter name="UpdatedAddress" value="Delhi 1234"/>
 
         <classes>
-            <class name="Assignment.Assignment2" />
+            <class name="Assignment.Assignment4" />
         </classes>
     </test>
-
 
 </suite>
