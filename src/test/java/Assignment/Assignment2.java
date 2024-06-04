@@ -66,12 +66,12 @@ public class Assignment2
 
     @Parameters({"baseurl","name1","year1","DOB1","UpdatedAddress","Salary1"})
     @Test(priority = 2)
-    public void put_call(String url,String name1,String year1,String DOB1,String Address2,String Salary1)
+    public void put_call(String url,String name1,String year1,String DOB1,String Address1,String Salary1)
     {
 
         Response response = given().
                 contentType(ContentType.JSON).
-                body(RA.CreatePostJson(name1,year1,DOB1,Address2,Salary1)).
+                body(RA.CreatePostJson(name1,year1,DOB1,Address1,Salary1)).
                 when().
                 put(url+"/"+id1);
 
@@ -80,9 +80,9 @@ public class Assignment2
 
         Response response1 = get(url+"?id="+id1);
 
-        String Address = response1.getBody().jsonPath().getString("data.Address");
+        String Address = response1.getBody().jsonPath().getString("data[0].Address");
         System.out.println("Updated Address is "+Address);
-        Assert.assertEquals(Address,Address2);
+        Assert.assertEquals(Address,Address1);
 
         String responseBody2 = response.getBody().asString();
         System.out.println("PUT Response Body: " + responseBody2);

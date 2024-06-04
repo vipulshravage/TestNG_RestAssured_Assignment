@@ -13,7 +13,7 @@
         <parameter name="UpdatedAddress" value="Delhi 1234"/>
 
         <classes>
-            <class name="Assignment.Assignment4" />
+            <class name="Assignment.Assignment2" />
         </classes>
     </test>
 

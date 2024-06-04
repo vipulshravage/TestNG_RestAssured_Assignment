@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Create User Details"
+<testsuite name="TestNG_RestAssured Assignment"
            tests="3"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="5.596">
+           time="4.312">
     <properties></properties>
 
-            <testcase
-                name="put_call"
-                time="1.766"
-                classname="Assignment.Assignment2">
-
-            <failure type="java.lang.AssertionError" message="expected [Delhi 1234] but found [[Delhi 1234]]">
-                <![CDATA[java.lang.AssertionError: expected [Delhi 1234] but found [[Delhi 1234]]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertEqualsImpl(Assert.java:150)org.testng.Assert.assertEquals(Assert.java:132)org.testng.Assert.assertEquals(Assert.java:656)org.testng.Assert.assertEquals(Assert.java:666)Assignment.Assignment2.put_call(Assignment2.java:85)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:819)org.testng.TestRunner.run(TestRunner.java:619)org.testng.SuiteRunner.runTest(SuiteRunner.java:443)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)org.testng.SuiteRunner.run(SuiteRunner.java:336)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1228)org.testng.TestNG.runSuites(TestNG.java:1134)org.testng.TestNG.run(TestNG.java:1101)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </failure>
-    </testcase>
 
 
             <testcase
                 name="post_call"
-                time="3.389"
+                time="3.144"
                 classname="Assignment.Assignment2">
             </testcase>
             <testcase
                 name="get_call"
-                time="0.441"
+                time="0.422"
+                classname="Assignment.Assignment2">
+            </testcase>
+            <testcase
+                name="put_call"
+                time="0.746"
                 classname="Assignment.Assignment2">
             </testcase>
 </testsuite>
