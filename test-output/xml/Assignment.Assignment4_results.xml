@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNG_RestAssured Assignment"
+           tests="3"
+           failures="2"
+           errors="0"
+           skipped="1"
+           time="0.236">
+    <properties></properties>
+
+            <testcase
+                name="report_setup"
+                time="0.236"
+                classname="Assignment.Assignment4">
+
+            <failure type="java.lang.NoSuchFieldError" message="VERSION_2_3_30">
+                <![CDATA[java.lang.NoSuchFieldError: VERSION_2_3_30
+                com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)Assignment.Assignment4.report_setup(Assignment4.java:34)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:819)org.testng.TestRunner.run(TestRunner.java:619)org.testng.SuiteRunner.runTest(SuiteRunner.java:443)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)org.testng.SuiteRunner.run(SuiteRunner.java:336)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1228)org.testng.TestNG.runSuites(TestNG.java:1134)org.testng.TestNG.run(TestNG.java:1101)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="display_details"
+                time="0.000"
+                classname="Assignment.Assignment4">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;title&apos; is required by @Test on method display_details but has not been marked @Optional or defined
+in C:\Users\vipuls\IdeaProjects\TestNG_RestAssured_Assignment\RestAssured.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'title' is required by @Test on method display_details but has not been marked @Optional or defined
+in C:\Users\vipuls\IdeaProjects\TestNG_RestAssured_Assignment\RestAssured.xml
+                org.testng.internal.Parameters.createParams(Parameters.java:267)org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)org.testng.internal.Parameters.createParameters(Parameters.java:693)org.testng.internal.Parameters.handleParameters(Parameters.java:888)org.testng.internal.Parameters.handleParameters(Parameters.java:737)org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:819)org.testng.TestRunner.run(TestRunner.java:619)org.testng.SuiteRunner.runTest(SuiteRunner.java:443)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)org.testng.SuiteRunner.run(SuiteRunner.java:336)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1228)org.testng.TestNG.runSuites(TestNG.java:1134)org.testng.TestNG.run(TestNG.java:1101)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="report_generation"
+                time="0.0"
+                classname="Assignment.Assignment4">
+            </testcase>
+
+</testsuite>
